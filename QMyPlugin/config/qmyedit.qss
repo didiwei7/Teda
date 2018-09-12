@@ -1,0 +1,27 @@
+QPushButton 
+{ 
+    border-radius: 3px;
+    border: none;
+    width: 40px;
+    height: 16px;
+    background: #78AADC;
+    color: white;
+}
+
+QPushButton:hover  
+{ 
+    background: #9AC0CD; 
+}
+
+QPushButton:pressed 
+{ 
+    background: #007ACC; 
+}
+
+QLineEdit
+{
+    border-radius: 2px;
+    border: none;
+    height: 16px;
+    color: #78AADC;
+}

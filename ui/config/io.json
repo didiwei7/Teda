@@ -1,0 +1,41 @@
+{
+    "Input": {
+        "0": { "index": 0,  "name": "X轴报警",  "status": 0,  "visible": true},
+        "1": { "index": 1,  "name": "Y轴报警",  "status": 0,  "visible": true},
+        "2": { "index": 2,  "name": "Z轴报警",  "status": 0,  "visible": true},
+        "3": { "index": 3,  "name": "A轴报警",  "status": 0,  "visible": true},
+        "4": { "index": 4,  "name": "X正限位",  "status": 0,  "visible": true},
+        "5": { "index": 5,  "name": "X负限位",  "status": 0,  "visible": true},
+        "6": { "index": 6,  "name": "Y正限位",  "status": 0,  "visible": true},
+        "7": { "index": 7,  "name": "Y负限位",  "status": 0,  "visible": true},
+        "8": { "index": 8,  "name": "Z正限位",  "status": 0,  "visible": true},
+        "9": { "index": 9,  "name": "Z负限位",  "status": 1,  "visible": true}
+    },
+        
+    "Output": {
+        "0": { "index": 0,  "name": "X轴使能",     "status": 0,  "visible": true},
+        "1": { "index": 1,  "name": "X轴报警清除",  "status": 0,  "visible": true},
+        "2": { "index": 2,  "name": "Y轴使能",     "status": 0,  "visible": true},
+        "3": { "index": 3,  "name": "Y轴报警清除",  "status": 0,  "visible": true},
+        "4": { "index": 4,  "name": "Z轴使能",     "status": 0,  "visible": true},
+        "5": { "index": 5,  "name": "Z轴报警清除",  "status": 0,  "visible": true},
+        "6": { "index": 6,  "name": "A轴使能",     "status": 0,  "visible": true},
+        "7": { "index": 7,  "name": "A轴报警清除",  "status": 0,  "visible": true},
+        "8": { "index": 8,  "name": "点胶阀开关",     "status": 0,  "visible": true},
+        "9": { "index": 9,  "name": "加热-温控开关",  "status": 0,  "visible": true}
+    },
+
+    "OutMsg": {
+        "0": "CMD_OUT,0,1",
+        "1": "CMD_OUT,1,1",
+        "2": "CMD_OUT,2,1",
+        "3": "CMD_OUT,3,1",
+        "4": "CMD_OUT,4,1",
+        "5": "CMD_OUT,5,1",
+        "6": "CMD_OUT,6,1",
+        "7": "CMD_OUT,7,1",
+        "8": "CMD_OUT,8,1",
+        "9": "CMD_OUT,9,1"
+    }
+}
+ 

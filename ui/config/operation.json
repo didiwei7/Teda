@@ -1,0 +1,220 @@
+{
+    "btn": {
+        "0": {
+            "index": 0,
+            "name": "X轴报警",
+            "status": 0,
+            "visible": true
+        },
+        "1": {
+            "index": 1,
+            "name": "Y轴报警",
+            "status": 0,
+            "visible": true
+        },
+        "2": {
+            "index": 2,
+            "name": "Z轴报警",
+            "status": 0,
+            "visible": true
+        },
+        "3": {
+            "index": 3,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "4": {
+            "index": 4,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "5": {
+            "index": 5,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "6": {
+            "index": 6,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "7": {
+            "index": 7,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "8": {
+            "index": 8,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        },
+        "9": {
+            "index": 9,
+            "name": "备用",
+            "status": 0,
+            "visible": true
+        }
+    },
+    "label": {
+        "0": {
+            "index": 0,
+            "name": "X轴报警",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "1": {
+            "index": 1,
+            "name": "Y轴报警",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "2": {
+            "index": 2,
+            "name": "Z轴报警",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "3": {
+            "index": 3,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "4": {
+            "index": 4,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "5": {
+            "index": 5,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "6": {
+            "index": 6,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "7": {
+            "index": 7,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "8": {
+            "index": 8,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": true
+        },
+        "9": {
+            "index": 9,
+            "name": "备用",
+            "value": 0.0,
+            "unit": "unit",
+            "visible": false
+        }
+    },
+    "edit": {
+        "0": {
+            "index": 0,
+            "name": "X轴报警",
+            "unit": "unit",
+            "value": 1525.0,
+            "visible": true
+        },
+        "1": {
+            "index": 1,
+            "name": "Y轴报警",
+            "unit": "unit",
+            "value": 352.5,
+            "visible": true
+        },
+        "2": {
+            "index": 2,
+            "name": "Z轴报警",
+            "unit": "unit",
+            "value": 25.0,
+            "visible": true
+        },
+        "3": {
+            "index": 3,
+            "name": "备用",
+            "unit": "unit",
+            "value": 4.0,
+            "visible": true
+        },
+        "4": {
+            "index": 4,
+            "name": "备用",
+            "unit": "unit",
+            "value": 0.0,
+            "visible": true
+        },
+        "5": {
+            "index": 5,
+            "name": "备用",
+            "unit": "unit",
+            "value": 55.0,
+            "visible": true
+        },
+        "6": {
+            "index": 6,
+            "name": "备用",
+            "unit": "unit",
+            "value": 0.0,
+            "visible": true
+        },
+        "7": {
+            "index": 7,
+            "name": "备用",
+            "unit": "unit",
+            "value": 0.0,
+            "visible": true
+        },
+        "8": {
+            "index": 8,
+            "name": "备用",
+            "unit": "unit",
+            "value": 0.0,
+            "visible": true
+        },
+        "9": {
+            "index": 9,
+            "name": "备用",
+            "unit": "unit",
+            "value": 0.0,
+            "visible": false
+        }
+    },
+    "btnmsg": {
+        "0": "CMD_BTN,0,1",
+        "1": "CMD_BTN,1,1",
+        "2": "CMD_BTN,2,1",
+        "3": "CMD_BTN,3,1",
+        "4": "CMD_BTN,4,1",
+        "5": "CMD_BTN,5,1",
+        "6": "CMD_BTN,6,1",
+        "7": "CMD_BTN,7,1",
+        "8": "CMD_BTN,8,1",
+        "9": "CMD_BTN,9,1"
+    }
+}
