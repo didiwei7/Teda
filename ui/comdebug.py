@@ -30,9 +30,9 @@ class ComDebug(QWidget):
 
     ''' 私有方法 '''
     def setupUi(self):
-        self.vnavigationbar.setSelectedBackColor("#FFC0CB");
-        self.vnavigationbar.setRowHeight(30);
-        self.vnavigationbar.setWidth(80);
+        self.vnavigationbar.setSelectedBackColor("#FFC0CB")
+        self.vnavigationbar.setRowHeight(30)
+        self.vnavigationbar.setWidth(80)
 
         layout_1 = QHBoxLayout()
         layout_2_1 = QHBoxLayout()

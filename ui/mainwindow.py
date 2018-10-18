@@ -19,6 +19,7 @@ from operation import *
 from iodebug import *
 from comdebug import *
 from comshow import *
+from cormix import *
 
 class MainWindow(QMainWindow):
 
@@ -59,10 +60,11 @@ class MainWindow(QMainWindow):
 
         # 窗口
         self.w_central = QWidget()
-        self.vnavigationbar = QVNavigationBar(["操作界面", "I/O", "通讯调试", "通讯显示"])
+        self.vnavigationbar = QVNavigationBar(["主界面", "AccuFlow", "CorMix", "通讯调试", "通讯显示"])
         self.stackedWidget = QStackedWidget()
         self.w_login = Login()
         self.w_operation = Operation()
+        self.w_cormix = Cormix()
         self.w_iodebug = IODebug()
         self.w_comdebug = ComDebug()
         self.w_comshow = ComShow()
@@ -145,9 +147,10 @@ class MainWindow(QMainWindow):
 
         # 初始化控件
         self.stackedWidget.insertWidget(0, self.w_operation)
-        self.stackedWidget.insertWidget(1, self.w_iodebug)
-        self.stackedWidget.insertWidget(2, self.w_comdebug)
-        self.stackedWidget.insertWidget(3, self.w_comshow)
+        self.stackedWidget.insertWidget(1, QLabel("AccuFlow"))
+        self.stackedWidget.insertWidget(2, self.w_cormix)        
+        self.stackedWidget.insertWidget(3, self.w_comdebug)
+        self.stackedWidget.insertWidget(4, self.w_comshow)
 
         # 布局
         layout_1 = QHBoxLayout()

@@ -14,7 +14,7 @@
    <string>Form</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(230, 230, 250);</string>
+   <string notr="true"/>
   </property>
   <widget class="QLabel" name="label_back">
    <property name="geometry">
@@ -35,16 +35,16 @@
   <widget class="QLabel" name="label_title">
    <property name="geometry">
     <rect>
-     <x>280</x>
+     <x>250</x>
      <y>20</y>
-     <width>240</width>
+     <width>300</width>
      <height>30</height>
     </rect>
    </property>
    <property name="font">
     <font>
      <family>微软雅黑</family>
-     <pointsize>15</pointsize>
+     <pointsize>20</pointsize>
      <weight>75</weight>
      <bold>true</bold>
     </font>
